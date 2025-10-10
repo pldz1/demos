@@ -1,4 +1,4 @@
-# PLDZ DemoS
+# PLDZ Demos
 
 ## sse_markdown
 
@@ -43,3 +43,25 @@
 - 4️⃣ [其他有趣内容](https://pldz1.com)
 
 ---
+
+## ubuntu hack script
+
+简单的 Ubuntu Hack 脚本
+
+- 1️⃣ [Github 源码](https://github.com/pldz1/demos/tree/main/ubuntu_hack)
+
+- 2️⃣ [CSDN 博客介绍](https://blog.csdn.net/qq_42727752/article/details/145044058)
+
+- 3️⃣ [掘金 博客介绍](https://juejin.cn/post/7457811062940434447)
+
+- 4️⃣ [其他有趣内容](https://pldz1.com)
+
+---
+
+# cmake tutorial
+
+cmake 教程的例子代码
+
+- 1️⃣ [Github 源码](https://github.com/pldz1/demos/tree/main/cmake_tutorial)
+
+- 2️⃣ [其他有趣内容](https://pldz1.com)

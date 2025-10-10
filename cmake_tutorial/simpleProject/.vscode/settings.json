@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.excalidraw": "json",
+        "*.excalidrawlib": "json",
+        "deccov.h": "c",
+        "dec2bin.h": "c",
+        "dec2hex.h": "c",
+        "dec2oct.h": "c",
+        "octcov.h": "c"
+    }
+}
