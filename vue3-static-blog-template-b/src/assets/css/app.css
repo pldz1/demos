@@ -1,0 +1,45 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.icon-16,
+.icon-18,
+.icon-32,
+.icon-32-a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-16 svg {
+  height: 16px;
+  width: 16px;
+}
+
+.icon-18 svg {
+  height: 18px;
+  width: 18px;
+}
+
+.icon-32,
+.icon-32-a {
+  height: 36px;
+  width: 36px;
+}
+
+.icon-32 svg {
+  height: 32px;
+  width: 32px;
+  border: 1px solid #abb3c5;
+  border-radius: 50%;
+}
+
+.icon-32-a svg {
+  height: 32px;
+  width: 32px;
+}

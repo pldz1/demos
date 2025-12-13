@@ -1,0 +1,20 @@
+{
+  "demo-1": {
+    "title": "demo-1",
+    "url": "/_codespace/demo1/index.html",
+    "thumbnail": "/_codespace/demo1/thumbnail.png",
+    "previewgif": "/_codespace/demo1/thumbnail.png",
+    "sourcelink": "https://github.com/pldz1/demos",
+    "date": "2025/01/15",
+    "summary": "测试demo1"
+  },
+  "demo-2": {
+    "title": "demo-2",
+    "url": "/_codespace/demo2/index.html",
+    "thumbnail": "/_codespace/demo2/thumbnail.png",
+    "previewgif": "/_codespace/demo2/thumbnail.png",
+    "sourcelink": "https://github.com/pldz1/demos",
+    "date": "2025/01/15",
+    "summary": "测试demo2"
+  }
+}
