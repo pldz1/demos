@@ -1,0 +1,9 @@
+{
+  "backoff_min": 1,
+  "backoff_max": 60,
+  "backoff_factor": 2.0,
+  "log_retain_days": 7,
+  "web_port": 20088,
+  "pproxy_executable": "pproxy",
+  "denied_ips": []
+}
