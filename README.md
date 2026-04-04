@@ -1,67 +1,40 @@
 # PLDZ Demos
 
-## sse_markdown
+这个仓库用于集中存放一些独立的小项目 Demo，涵盖 AI、前端、Python、C/C++ 和脚本工具。
 
-用 markdown-it 这个库在 HTML 上动态更新 markdown 内容(不是重新刷新).
+## 项目索引
 
-- 1️⃣ [个人网站预览效果](https://pldz1.com/io/markdown-sse)
+| 目录 | 类型 | 简介 |
+| --- | --- | --- |
+| `ai-agent` | Node.js | 单 Agent 架构 Demo，包含 Router/Executor/Tools 分层，多模态能力（聊天、搜索、推理、图像） |
+| `pproxy-manager` | Python + aiohttp | `pproxy` 管理面板，支持规则管理、日志查询、状态监控 |
+| `sse_markdown` | Vue 3 + Vite | 在页面中动态增量渲染 Markdown（配合 SSE 场景） |
+| `learn_chat_image_api` | JS + Python | OpenAI/Azure OpenAI 的对话与图像 API 调用示例 |
+| `python_proxy` | Python + aiohttp | 简单 HTTP/WebSocket 代理转发服务 |
+| `ubuntu_hack` | Bash | Ubuntu 常用辅助脚本（电池、资源、旋转屏幕、代理） |
+| `cmake_tutorial` | C + CMake | CMake 入门示例（单工程与多子目录工程） |
+| `create_a_python_project` | Python + Flask | Python 项目骨架示例（含配置和日志模块） |
+| `vue3-static-blog-template-a` | Vue 3（Vue CLI） | 静态博客模板 A，含文章资源同步/加密脚本 |
+| `vue3-static-blog-template-b` | Vue 3 + Vite | 静态博客模板 B（Vite 版本），含资源同步/加密脚本 |
 
-- 3️⃣ [Github 源码](https://github.com/pldz1/demos/tree/main/sse_markdown)
+## 快速开始
 
-- 4️⃣ [掘金 博客介绍](https://juejin.cn/post/7458656534718316595)
+按需进入对应目录运行：
 
-- 5️⃣ [掘金 博客介绍](https://juejin.cn/post/7458656534718316595)
+- Node.js / 前端项目：`npm install` 后执行 `npm run dev` / `npm run serve`
+- Python 项目：`pip install -r requirements.txt` 后执行 `python xxx.py`
+- CMake 示例：在项目目录执行 `cmake -S . -B build && cmake --build build`
 
-- 6️⃣ [其他有趣内容](https://pldz1.com)
+## 重点项目链接
 
----
+- `sse_markdown`: [源码](https://github.com/pldz1/demos/tree/main/sse_markdown) | [预览](https://pldz1.com/io/markdown-sse) | [掘金](https://juejin.cn/post/7458656534718316595)
+- `learn_chat_image_api`: [源码](https://github.com/pldz1/demos/tree/main/learn_chat_image_api) | [CSDN](https://blog.csdn.net/qq_42727752/article/details/145082786) | [掘金](https://juejin.cn/post/7458496437614788646)
+- `python_proxy`: [源码](https://github.com/pldz1/demos/tree/main/python_proxy)
+- `ubuntu_hack`: [源码](https://github.com/pldz1/demos/tree/main/ubuntu_hack) | [CSDN](https://blog.csdn.net/qq_42727752/article/details/145044058) | [掘金](https://juejin.cn/post/7457811062940434447)
+- `cmake_tutorial`: [源码](https://github.com/pldz1/demos/tree/main/cmake_tutorial)
+- `pproxy-manager`: [源码](https://github.com/pldz1/demos/tree/main/pproxy-manager)
+- `ai-agent`: [源码](https://github.com/pldz1/demos/tree/main/ai-agent)
 
-## learn_chat_image_api
+## 其他
 
-前言 JS 和 Python 是比较受欢迎的两个调用 OpenAI 对话 API 的两个库, 这里 简单记录这两个库对 OpenAI 的对话(Chat)和图像(Image)的使用.
-
-- 1️⃣ [Github 源码](https://github.com/pldz1/demos/tree/main/learn_chat_image_api)
-
-- 2️⃣ [CSDN 博客介绍](https://blog.csdn.net/qq_42727752/article/details/145082786)
-
-- 3️⃣ [掘金 博客介绍](https://juejin.cn/post/7458496437614788646)
-
-- 4️⃣ [其他有趣内容](https://pldz1.com)
-
----
-
-## python_proxy
-
-简单的 Python 全代理服务器
-
-- 1️⃣ [Github 源码](https://github.com/pldz1/demos/tree/main/python_proxy)
-
-- 2️⃣ [CSDN 博客介绍](https://blog.csdn.net/qq_42727752)
-
-- 3️⃣ [掘金 博客介绍](https://juejin.cn/user/2590907894607726)
-
-- 4️⃣ [其他有趣内容](https://pldz1.com)
-
----
-
-## ubuntu hack script
-
-简单的 Ubuntu Hack 脚本
-
-- 1️⃣ [Github 源码](https://github.com/pldz1/demos/tree/main/ubuntu_hack)
-
-- 2️⃣ [CSDN 博客介绍](https://blog.csdn.net/qq_42727752/article/details/145044058)
-
-- 3️⃣ [掘金 博客介绍](https://juejin.cn/post/7457811062940434447)
-
-- 4️⃣ [其他有趣内容](https://pldz1.com)
-
----
-
-# cmake tutorial
-
-cmake 教程的例子代码
-
-- 1️⃣ [Github 源码](https://github.com/pldz1/demos/tree/main/cmake_tutorial)
-
-- 2️⃣ [其他有趣内容](https://pldz1.com)
+- 个人主页: https://pldz1.com
