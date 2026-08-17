@@ -8,6 +8,7 @@
 | --- | --- | --- |
 | `ai-agent` | Node.js | 单 Agent 架构 Demo，包含 Router/Executor/Tools 分层，多模态能力（聊天、搜索、推理、图像） |
 | `pproxy-manager` | Python + aiohttp | `pproxy` 管理面板，支持规则管理、日志查询、状态监控 |
+| `git-remote-rewriter` | Bash | 批量修改当前目录下一层 Git 仓库中 GitHub Remote 的用户名或认证前缀 |
 | `sse_markdown` | Vue 3 + Vite | 在页面中动态增量渲染 Markdown（配合 SSE 场景） |
 | `learn_chat_image_api` | JS + Python | OpenAI/Azure OpenAI 的对话与图像 API 调用示例 |
 | `python_proxy` | Python + aiohttp | 简单 HTTP/WebSocket 代理转发服务 |
@@ -24,6 +25,7 @@
 - Node.js / 前端项目：`npm install` 后执行 `npm run dev` / `npm run serve`
 - Python 项目：`pip install -r requirements.txt` 后执行 `python xxx.py`
 - CMake 示例：在项目目录执行 `cmake -S . -B build && cmake --build build`
+- Bash 工具：先执行 `chmod +x xxx.sh`，再按项目 README 中的说明运行
 
 ## 重点项目链接
 
@@ -34,6 +36,7 @@
 - `cmake_tutorial`: [源码](https://github.com/pldz1/demos/tree/main/cmake_tutorial)
 - `pproxy-manager`: [源码](https://github.com/pldz1/demos/tree/main/pproxy-manager)
 - `ai-agent`: [源码](https://github.com/pldz1/demos/tree/main/ai-agent)
+- `git-remote-rewriter`: [源码](https://github.com/pldz1/demos/tree/main/git-remote-rewriter)
 
 ## 其他
 
